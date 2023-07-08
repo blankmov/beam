@@ -762,6 +762,14 @@
   font-display: swap;
   font-style: normal; }
 
+
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr * { 
+ font-family: 'Noto Sans KR', sans-serif;
+}
+
 html {
   background-color: var(--bg) !important;
   /* background-image: url('https://mattdowney.github.io/digital/img/loader.svg');
@@ -789,11 +797,11 @@ ul, ol, li {
   color: var(--contrast) !important; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Clash Grotesk Semibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important; }
+  font-family: "Clash Grotesk Semibold", "NanumSquare", "Noto Sans KR", -apple-system, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Malgun Gothic","맑은 고딕", "Dotum", "돋움", "AppleGothic", "Apple SD Gothic Neo" !important; }
 
 h1,
 h1.notion-heading {
-  font-family: "Clash Grotesk Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+  font-family: "Clash Grotesk Semibold", "NanumSquare", "Noto Sans KR", -apple-system, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Malgun Gothic","맑은 고딕", "Dotum", "돋움", "AppleGothic", "Apple SD Gothic Neo" !important;
   font-size: 3.25rem !important;
   line-height: 1.3 !important;
   max-width: 53.75rem !important;
@@ -807,7 +815,7 @@ h1.notion-heading {
 h2,
 h2.notion-heading {
   font-size: 2.1875rem !important;
-  font-family: "Clash Grotesk Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+  font-family: "Clash Grotesk Semibold", "NanumSquare", "Noto Sans KR", -apple-system, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Malgun Gothic","맑은 고딕", "Dotum", "돋움", "AppleGothic", "Apple SD Gothic Neo" !important;
   margin-bottom: 1.25rem !important;
   margin-top: 1rem !important; }
 
@@ -830,7 +838,7 @@ p.notion-text__content {
     line-height: 1.75 !important; }
     p .notion-semantic-string a,
     p.notion-text__content .notion-semantic-string a {
-      font-family: "Clash Grotesk Semibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+      font-family: "Clash Grotesk Semibold", "NanumSquare", "Noto Sans KR", -apple-system, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Malgun Gothic","맑은 고딕", "Dotum", "돋움", "AppleGothic", "Apple SD Gothic Neo" !important;
       color: var(--contrast) !important;
       border-bottom: none !important;
       transition: 0.15s ease-in-out !important; }
@@ -875,7 +883,7 @@ html, body {
   -ms-overflow-style: none;
   min-height: 100%;
   width: 100%;
-  font-family: "General Sans Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important; }
+  font-family: "General Sans Regular", "NanumSquare", "Noto Sans KR", -apple-system, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Malgun Gothic","맑은 고딕", "Dotum", "돋움", "AppleGothic", "Apple SD Gothic Neo" !important; }
 
 html, body,
 h1, h2, h3, p,
@@ -934,7 +942,7 @@ iframe, video, img {
           padding: 0.6rem 1.6rem !important;
           border-radius: 500rem !important;
           font-size: 1.125rem !important;
-          font-family: "Clash Grotesk Semibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+          font-family: "Clash Grotesk Semibold", "NanumSquare", "Noto Sans KR", -apple-system, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Malgun Gothic","맑은 고딕", "Dotum", "돋움", "AppleGothic", "Apple SD Gothic Neo" !important;
           letter-spacing: 0.05rem !important;
           border: 0.2rem solid var(--contrast) !important;
           transition: all 0.2s ease-in-out !important; }
@@ -966,7 +974,7 @@ iframe, video, img {
       display: block !important; }
       .notion-column .notion-collection .notion-collection-table__wrapper .notion-collection-table .notion-collection-table__cell.title a {
         font-size: 1.25rem !important;
-        font-family: "Clash Grotesk Semibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+        font-family: "Clash Grotesk Semibold", "NanumSquare", "Noto Sans KR", -apple-system, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Malgun Gothic","맑은 고딕", "Dotum", "돋움", "AppleGothic", "Apple SD Gothic Neo" !important;
         text-decoration: none !important;
         transition: all 0.2s ease-in-out !important; }
         .notion-column .notion-collection .notion-collection-table__wrapper .notion-collection-table .notion-collection-table__cell.title a:hover {
@@ -1071,7 +1079,7 @@ iframe, video, img {
         transition: 0.2s ease-in-out !important;
         opacity: 1 !important;
         font-size: 2rem !important;
-        font-family: "Clash Grotesk Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important; }
+        font-family: "Clash Grotesk Semibold", "NanumSquare", "Noto Sans KR", -apple-system, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Malgun Gothic","맑은 고딕", "Dotum", "돋움", "AppleGothic", "Apple SD Gothic Neo" !important; }
         .super-content .notion-collection-gallery.large .notion-collection-card .notion-property__title .notion-property__title__icon-wrapper {
           display: none !important; }
   .super-content .notion-collection-gallery.medium {
@@ -1120,7 +1128,7 @@ iframe, video, img {
           white-space: normal !important;
           line-height: 1.5 !important;
           margin-bottom: 0.5rem !important;
-          font-family: "General Sans Semibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+          font-family: "General Sans Regular", "NanumSquare", "Noto Sans KR", -apple-system, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Malgun Gothic","맑은 고딕", "Dotum", "돋움", "AppleGothic", "Apple SD Gothic Neo" !important;
           transition: all 0.2s ease-in-out !important; }
           .super-content .notion-collection-gallery.medium .notion-collection-card .notion-property__title .notion-semantic-string:hover {
             color: var(--accent) !important; }
@@ -1179,7 +1187,7 @@ iframe, video, img {
       display: block !important; }
       .super-content .notion-column-list .notion-collection .notion-collection-table__wrapper .notion-collection-table .notion-collection-table__cell.title a {
         font-size: 1.25rem !important;
-        font-family: "General Sans Semibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+        font-family: "General Sans Regular", "NanumSquare", "Noto Sans KR", -apple-system, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Malgun Gothic","맑은 고딕", "Dotum", "돋움", "AppleGothic", "Apple SD Gothic Neo" !important;
         text-decoration: none !important;
         transition: all 0.2s ease-in-out !important; }
         .super-content .notion-column-list .notion-collection .notion-collection-table__wrapper .notion-collection-table .notion-collection-table__cell.title a:hover {
@@ -1224,7 +1232,7 @@ iframe, video, img {
       text-transform: uppercase !important;
       opacity: 1 !important;
       color: var(--contrast) !important;
-      font-family: "Clash Grotesk Semibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+      font-family: "Clash Grotesk Semibold", "NanumSquare", "Noto Sans KR", -apple-system, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Malgun Gothic","맑은 고딕", "Dotum", "돋움", "AppleGothic", "Apple SD Gothic Neo" !important;
       letter-spacing: 0.125rem !important;
       padding: 0 !important;
       margin: 0 1.25rem !important;
@@ -1426,7 +1434,7 @@ iframe, video, img {
       color: var(--contrast) !important; }
 
 [id*="writing-"] .notion-quote {
-  font-family: "Clash Grotesk Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+  font-family: "Clash Grotesk Semibold", "NanumSquare", "Noto Sans KR", -apple-system, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Malgun Gothic","맑은 고딕", "Dotum", "돋움", "AppleGothic", "Apple SD Gothic Neo" !important;
   font-size: 1.9rem !important; }
 
 [id*="writing-"] .notion-bulleted-list,
@@ -1538,7 +1546,7 @@ article[id*="block-projects-"] .notion-column-list .notion-column {
     .notion-callout .notion-callout__content .notion-collection tr {
       margin-bottom: 0.15rem !important; }
     .notion-callout .notion-callout__content .notion-collection .notion-collection-table__body tr a {
-      font-family: "General Sans Semibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important; }
+      font-family: "General Sans Regular", "NanumSquare", "Noto Sans KR", -apple-system, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Malgun Gothic","맑은 고딕", "Dotum", "돋움", "AppleGothic", "Apple SD Gothic Neo" !important; }
     @media (max-width: 767.98px) {
       .notion-callout .notion-callout__content .notion-collection .notion-collection-table__body tr:first-child {
         display: block !important;
@@ -1569,7 +1577,7 @@ article[id*="block-projects-"] .notion-column-list .notion-column {
       .notion-callout .notion-callout__content .notion-collection .notion-collection-table__body .notion-collection-table__cell.text .color-green {
         color: var(--contrast) !important;
         background: var(--accent) !important;
-        font-family: "Clash Grotesk Semibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+        font-family: "Clash Grotesk Semibold", "NanumSquare", "Noto Sans KR", -apple-system, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Malgun Gothic","맑은 고딕", "Dotum", "돋움", "AppleGothic", "Apple SD Gothic Neo" !important;
         padding: 0.3rem 0.5rem 0.3rem !important;
         margin-right: 0.5rem !important;
         border-radius: 0.25rem !important; }
@@ -1605,7 +1613,7 @@ article[id*="block-projects-"] .notion-column-list .notion-column {
       font-size: 0.9375rem !important;
       text-transform: uppercase !important;
       color: var(--contrast) !important;
-      font-family: "Clash Grotesk Semibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+      font-family: "Clash Grotesk Semibold", "NanumSquare", "Noto Sans KR", -apple-system, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Malgun Gothic","맑은 고딕", "Dotum", "돋움", "AppleGothic", "Apple SD Gothic Neo" !important;
       letter-spacing: 0.125rem !important;
       padding: 0 !important;
       margin: 0 1.25rem 0 0 !important;
